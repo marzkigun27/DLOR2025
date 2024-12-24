@@ -8,21 +8,66 @@ Welcome to the **Assistant Recruitment Web Application** repository! This projec
 - **Audience:** Students aspiring to become teaching assistants in **Basic Computing & Algorithm** courses.
 
 ## ✨ Features
-- **Interactive Forms**: Seamless application process with real-time validation.
-- **Dashboard**: Admins can review, filter, and manage applicants efficiently.
-- **Notifications**: Email and in-app notifications for important updates.
-- **Mobile Responsive**: Optimized for all screen sizes to ensure accessibility.
+## **Account**
+- Change Password  
+- Profile  
+
+## **Contacts**
+- OA Line  
+- Assistant Information  
+
+## **Recruitment**
+- Announcements  
+- Schedule  
+- Role  
+- Log Out  
+
+## **Dashboard**
+
+### Announcements and Announcement Preview
+- Pass  
+- Fail  
+- Link  
+
+### Configuration and Configuration Preview
+- Stages  
+- Announcements  
+- Schedule Details  
+- Role  
+
+## **Manage Candidates**
+- Add Candidate  
+- Import Excel  
+- Reset Password  
+- Preview Total Candidates (Pass, Fail, and Overall)  
+- Preview Candidate Data (Name, Student ID, Role, Status, Stage, and Actions)  
+
+## **Manage Shifts/Schedules**
+- Add Shift  
+- View Assignments  
+- Reset Shifts  
+- Reset Assignments  
+
+## **Manage Role**
+- Manage role-specific functionalities. 
 
 ## 🛠️ Tech Stack
 - **Frontend**:blade laravel
-- **Backend**: PHP (Local environment powered by Laragon), Laravel
+- **Backend**: PHP Laravel
 - **Database**: MySQL for storing applicant data
 - **Hosting**: To be decided
 
 ## 🧑‍💻 Our Member :
-- **Frontend**:
+- **Frontend**: 
++ [Stevannie Pratama](https://github.com/stevanniep) [SNI]
++ [Umar Zaki Gunawan](https://github.com/marzkigun27) [UZY]
+
 - **Backend**:
++ [Muhammad Zaenal Abidin Abdurrahman](https://github.com/Zendin110206) [ZEN]
++ [Muhammad Hafiz](https://github.com/mhafiz03) [MHZ]
+
 - **UI/UX**:
++ [Aulia Rahma](https://github.com/pieceofaul) [AUL]
 
 ## 🚀 Getting Started
 Follow these steps to set up the project locally:
@@ -34,4 +79,4 @@ Follow these steps to set up the project locally:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/recruitment-web-app.git
+   git clone https://github.com/marzkigun27/DLOR2025.git
