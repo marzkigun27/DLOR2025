@@ -1,4 +1,5 @@
-# Assistant Recruitment Web Application - Basic Computing & Algorithm Lab 🌐
+#  DLOR 2025 (Daskom Laboratory Open Recruitment) 
+***Assistant Recruitment Web Application - Basic Computing & Algorithm Lab 🌐***
 
 Welcome to the **Assistant Recruitment Web Application** repository! This project is dedicated to creating a modern, user-friendly platform for recruiting teaching assistants for the **Basic Computing & Algorithm Laboratory** at **Telkom University**. 🚀
 
@@ -8,50 +9,50 @@ Welcome to the **Assistant Recruitment Web Application** repository! This projec
 - **Audience:** Students aspiring to become teaching assistants in **Basic Computing & Algorithm** courses.
 
 ## ✨ Features
-## **Account**
+### **Account**
 - Change Password  
 - Profile  
 
-## **Contacts**
+### **Contacts**
 - OA Line  
 - Assistant Information  
 
-## **Recruitment**
+### **Recruitment**
 - Announcements  
 - Schedule  
 - Role  
 - Log Out  
 
-## **Dashboard**
+### **Dashboard**
 
-### Announcements and Announcement Preview
+#### Announcements and Announcement Preview
 - Pass  
 - Fail  
 - Link  
 
-### Configuration and Configuration Preview
+#### Configuration and Configuration Preview
 - Stages  
 - Announcements  
 - Schedule Details  
 - Role  
 
-## **Manage Candidates**
+### **Manage Candidates**
 - Add Candidate  
 - Import Excel  
 - Reset Password  
 - Preview Total Candidates (Pass, Fail, and Overall)  
 - Preview Candidate Data (Name, Student ID, Role, Status, Stage, and Actions)  
 
-## **Manage Shifts/Schedules**
+### **Manage Shifts/Schedules**
 - Add Shift  
 - View Assignments  
 - Reset Shifts  
 - Reset Assignments  
 
-## **Manage Role**
+### **Manage Role**
 - Manage role-specific functionalities. 
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 - **Frontend**:blade laravel
 - **Backend**: PHP Laravel
 - **Database**: MySQL for storing applicant data
