@@ -12,7 +12,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                'im-fell-english': ['"IM Fell English"', 'serif'],
             },
         },
     },
