@@ -1,83 +1,77 @@
-#  DLOR 2025 (Daskom Laboratory Open Recruitment) 
-***Assistant Recruitment Web Application - Basic Computing & Algorithm Lab 🌐***
+# DLOR 2025  
+_Open Recruitment Platform for Dasar Komputer Laboratory, Telkom University_
 
-Welcome to the **Assistant Recruitment Web Application** repository! This project is dedicated to creating a modern, user-friendly platform for recruiting teaching assistants for the **Basic Computing & Algorithm Laboratory** at **Telkom University**. 🚀
+Welcome to the **DLOR 2025** repository! This project is dedicated to creating a modern, user-friendly platform for recruiting teaching assistants for the **Dasar Komputer Laboratory** at **Telkom University**.
 
-## 🌈 Project Highlights
-- **Theme:** A vibrant **crystal purple and blue** theme to represent innovation and modernity.
-- **Purpose:** Simplify the assistant recruitment process by providing a centralized and intuitive application platform.
-- **Audience:** Students aspiring to become teaching assistants in **Basic Computing & Algorithm** courses.
+## Project Summary  
+DLOR 2025 is a recruitment platform designed to streamline the application process for teaching assistants. It features an intuitive UI, a secure backend, and an efficient application workflow.
 
-## ✨ Features
-### **Account**
-- Change Password  
-- Profile  
+## Features  
+- User-friendly application form  
+- Secure authentication system  
+- Real-time updates on application status  
+- Admin dashboard for managing recruitment  
 
-### **Contacts**
-- OA Line  
-- Assistant Information  
+## Tech Stack  
+- **Frontend**: Blade (Laravel templating engine)  
+- **Backend**: PHP (Laravel framework)  
+- **Database**: SQLite
 
-### **Recruitment**
-- Announcements  
-- Schedule  
-- Role  
-- Log Out  
+## Team Members  
+**UI/UX Design:**  
+- [Aulia Rahma](https://github.com/pieceofaul) (AUL)  
 
-### **Dashboard**
+**Frontend Development:**  
+- [Stevannie Pratama](https://github.com/stevanniep) (SNI)  
+- [Umar Zaki Gunawan](https://github.com/marzkigun27) (UZY)  
 
-#### Announcements and Announcement Preview
-- Pass  
-- Fail  
-- Link  
+**Backend Development:**  
+- [Muhammad Zaenal Abidin Abdurrahman](https://github.com/Zendin110206) (ZEN)  
+- [Muhammad Hafiz](https://github.com/mhafiz03) (MHZ)  
 
-#### Configuration and Configuration Preview
-- Stages  
-- Announcements  
-- Schedule Details  
-- Role  
-
-### **Manage Candidates**
-- Add Candidate  
-- Import Excel  
-- Reset Password  
-- Preview Total Candidates (Pass, Fail, and Overall)  
-- Preview Candidate Data (Name, Student ID, Role, Status, Stage, and Actions)  
-
-### **Manage Shifts/Schedules**
-- Add Shift  
-- View Assignments  
-- Reset Shifts  
-- Reset Assignments  
-
-### **Manage Role**
-- Manage role-specific functionalities. 
-
-### 🛠️ Tech Stack
-- **Frontend**:blade laravel
-- **Backend**: PHP Laravel
-- **Database**: MySQL for storing applicant data
-- **Hosting**: To be decided
-
-## 🧑‍💻 Our Member :
-- **Frontend**: 
-+ [Stevannie Pratama](https://github.com/stevanniep) [SNI]
-+ [Umar Zaki Gunawan](https://github.com/marzkigun27) [UZY]
-
-- **Backend**:
-+ [Muhammad Zaenal Abidin Abdurrahman](https://github.com/Zendin110206) [ZEN]
-+ [Muhammad Hafiz](https://github.com/mhafiz03) [MHZ]
-
-- **UI/UX**:
-+ [Aulia Rahma](https://github.com/pieceofaul) [AUL]
-
-## 🚀 Getting Started
-Follow these steps to set up the project locally:
+## Getting Started  
+Follow these steps to set up the project on your local machine.
 
 ### Prerequisites
-- **Laragon**: Ensure you have Laragon installed for the local development environment.
-- **Node.js**: Required for managing dependencies.
+- **PHP 8.2**
+- **Node.js** (or pnpm or yarn or bun)
+- **Laravel 11**
+- (Optional) **Laragon** (Recommended for Windows users)
 
 ### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/marzkigun27/DLOR2025.git
+   cd DLOR2025
+   ```
+
+2. Setup:
+   Install dependecies:
+   ```bash
+   composer install
+   npm install # or pnpm i, yarn, bun
+   ```
+   Copy `.env.example` and paste it as `.env` or just `cp .env.example .env`
+
+   Edit `APP_URL` into `APP_URL=http://localhost:8000` in `.env`
+
+   Setup key option and database:
+   ```bash
+   php artisan key:generate
+   php artisan migrate
+   ```
+
+3. Run the project:
+   Run in two terminals:
+   ```bash
+   npm run dev
+   ```
+   and other is:
+   ```bash
+   php artisan serve
+   ```
+
+4. Edit the project:
+Access the platform at: `http://localhost:8000`
+
+
