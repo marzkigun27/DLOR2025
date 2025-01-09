@@ -6,7 +6,7 @@
     <title>Login Page</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-cover bg-no-repeat font-im-fell-english flex flex-row items-center justify-center min-h-screen" style="background-image: url('{{ asset('images/Background-1-Admin.png') }}');">
+<body class="bg-cover bg-no-repeat font-im-fell-english flex flex-row items-center justify-center min-h-screen bg-LoginAdmin" >
     <x-login-form-admin></x-login-form-admin>
     <x-footer></x-footer>
 </body>
